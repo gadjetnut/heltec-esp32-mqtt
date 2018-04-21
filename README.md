@@ -53,7 +53,7 @@ python pubtemp.py
 
 # Arduino Installation
 
-You need to install ESP32. There are many online guides. E.g.: https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide/installing-the-esp32-arduino-core
+You need to install ESP32 for Aruino first. There are many online guides. E.g.: https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide/installing-the-esp32-arduino-core
 
 Copy the OLED directory to your Arduino Libraries subdirectory
 Copy the esp_temp_display_mqtt your Arduino directory 
