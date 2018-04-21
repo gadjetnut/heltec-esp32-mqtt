@@ -7,9 +7,8 @@ Publish temperature readings from Raspberry Pi &amp; DS18B20 Temperature probe t
 Follow wiring diagram: <a href="http://goo.gl/zYhm6f">Wiring Diagram</a>
 
 sudo nano /boot/config.txt 
-Page down to the bottom of the file and paste or type in these two lines
+Page down to the bottom of the file and paste or type in this line:
 
-# 1-wire settings
 dtoverlay=w1-gpio,gpiopin=4
 
 Press CTRL-X Y ENTER to save exit. 
@@ -53,7 +52,20 @@ python pubtemp.py
 
 # Arduino Installation
 
-Copy 
+Copy the OLED directory to your Arduino Libraries subdirectory
+Copy the esp_temp_display_mqtt your Arduino directory 
+
+Start, or restart, Arduino IDE.
+
+Open up esp_temp_display_mqtt.ino and update these three lines with your details:
+
+const char* ssid     = "YOURSSID";          // your network SSID (name of wifi network)
+const char* password = "YOURWIFIPASSWORD";     // your network password
+const char* mqtt_server = "192.168.2.201"; // your mqtt server ip
+
+Load the sketch onto the HelTec-ESP32-OLED device. 
+
+
 
 
 
