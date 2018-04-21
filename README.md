@@ -34,9 +34,7 @@ sudo nano pubtemp.py
 Update these three lines with your details:
 
 mqtt_server = "192.168.2.201" -This is the IP address of your Raspberry Pi
-
 ds18B20 = "28-0417506434ff"   -Enter the folder of your DS18B20 sensor in between the quotes
-
 fahrenheit=True  			          -Change False to True if you want the temperature displayed in Fahrenheit
 
 Press CTRL-X Y ENTER to save exit. 
