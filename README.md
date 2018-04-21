@@ -1,9 +1,8 @@
 # heltec-esp32-mqtt
 Publish temperature readings from Raspberry Pi &amp; DS18B20 Temperature probe to be displayed on the Heltec ESP32 OLED. Requires a WIFI connection and uses MQTT to publish from Raspberry Pi and subscribe and display on the Heltec device OLED
 
-# Installation
+# Raspberry Pi Installation
 
-1. Raspberry Pi Installation
 Follow wiring diagram: <a href="http://goo.gl/zYhm6f">Wiring Diagram</a>
 
 sudo nano /boot/config.txt 
@@ -51,6 +50,8 @@ Run pubtemp.py:
 python pubtemp.py
 
 # Arduino Installation
+
+You need to install ESP32. There are many online guides. E.g.: https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide/installing-the-esp32-arduino-core
 
 Copy the OLED directory to your Arduino Libraries subdirectory
 Copy the esp_temp_display_mqtt your Arduino directory 
