@@ -4,4 +4,4 @@ Publish temperature readings from Raspberry Pi &amp; DS18B20 Temperature probe t
 # Installation
 
 1. Raspberry Pi Installation
-Follow wiring diagram: goo.gl/zYhm6f
+Follow wiring diagram: <a href="goo.gl/zYhm6f">Wiring Diagram</a>
