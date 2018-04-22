@@ -38,16 +38,20 @@ Update these three lines with your details:
 
 
 mqtt_server = "192.168.2.201" -This is the IP address of your Raspberry Pi
+
 ds18B20 = "28-0417506434ff"   -Enter the folder of your DS18B20 sensor in between the quotes
+
 fahrenheit=True  			          -Change False to True if you want the temperature displayed in Fahrenheit
 
 
 Press CTRL-X Y ENTER to save exit. 
 
 Install MQTT server:
+
 sudo apt-get install mosquitto
 
 Install PAHO client:
+
 pip install paho-mqtt
 
 Run pubtemp.py:
@@ -59,6 +63,7 @@ python pubtemp.py
 You need to install ESP32 for Aruino first. There are many online guides. E.g.: https://learn.sparkfun.com/tutorials/esp32-thing-hookup-guide/installing-the-esp32-arduino-core
 
 Copy the OLED directory to your Arduino Libraries subdirectory
+
 Copy the esp_temp_display_mqtt your Arduino directory 
 
 Start, or restart, Arduino IDE.
