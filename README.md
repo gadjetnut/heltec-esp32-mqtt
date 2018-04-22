@@ -5,7 +5,7 @@ Publish temperature readings from Raspberry Pi &amp; DS18B20 Temperature probe t
 
 Follow wiring diagram: 
 
-![FontTool](https://github.com/squix78/esp8266-oled-ssd1306/raw/master/resources/FontTool.png)
+![esp32-OLED](https://github.com/gadjetnut/heltec-esp32-mqtt/blob/master/heltec-esp32-OLED.jpg)
 
 ```
 sudo nano /boot/config.txt 
