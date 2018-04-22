@@ -4,10 +4,7 @@
 
 Publish temperature readings from Raspberry Pi &amp; DS18B20 Temperature probe to be displayed on the Heltec ESP32 OLED. Requires a WIFI connection and uses MQTT to publish from Raspberry Pi and subscribe and display on the Heltec device OLED
 
-![Watch the video](https://github.com/gadjetnut/heltec-esp32-mqtt/blob/master/heltec-esp32-OLED-4.jpg)](https://youtu.be/dR4AgmhC2qY)
-
-This was adapted from the Heltec code examples here: 
-https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/OLED/examples
+![Watch the video]((https://youtu.be/dR4AgmhC2qY)]
 
 # Raspberry Pi Installation
 
@@ -96,7 +93,8 @@ const char* mqtt_server = "192.168.2.201"; // your mqtt server ip
 Load the sketch onto the HelTec-ESP32-OLED device. 
 
 
-
+# Libraries used:
+https://github.com/Heltec-Aaron-Lee/WiFi_Kit_series/tree/master/esp32/libraries/OLED/examples
 
 
 
