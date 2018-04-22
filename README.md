@@ -1,4 +1,4 @@
-# Temperature Monitoring with heltec-esp32-mqtt, Raspberry Pi and DS18B20 temperatur sensor
+# Temperature Monitoring with heltec-esp32-mqtt, Raspberry Pi and DS18B20 temperature sensor
 
 ![esp32-OLED](https://github.com/gadjetnut/heltec-esp32-mqtt/blob/master/heltec-esp32-OLED-4.jpg)
 
