@@ -41,7 +41,7 @@ you should see a folders like this:
 28-0417506434ff  w1_bus_master1
 ```
 
-Copy this folder name for later  : "28-0417506434ff" (yours will be different)
+Take note, or copy to clipboard, this folder name for later  : "28-0417506434ff" (yours will be different)
 
 copy pubtemp.py to your Raspberry Pi and edit
 
