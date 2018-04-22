@@ -18,8 +18,11 @@ Test that the DS18B20 is working:
 Type:
  
 sudo modprobe w1-gpio
+
 sudo modprobe w1-therm
+
 cd /sys/bus/w1/devices/
+
 ls 
 
 you should see a folders like this:
