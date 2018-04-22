@@ -23,7 +23,7 @@ import paho.mqtt.client as paho
 
 mqtt_server = "192.168.2.201" #Enter the IP address of your MQTT server in between the quotes
 ds18B20 = "28-0417506434ff"   #Enter the folder of your DS18B20 sensor in between the quotes
-fahrenheit=True  			  #Change False to True if you want the temperature displayed in Fahrenheit
+fahrenheit=True               #Change False to True if you want the temperature displayed in Fahrenheit
 
 def fileexists(filename):
         try:
