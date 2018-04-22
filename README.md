@@ -5,8 +5,12 @@ Publish temperature readings from Raspberry Pi &amp; DS18B20 Temperature probe t
 
 Follow wiring diagram: <a href="http://goo.gl/zYhm6f">Wiring Diagram</a>
 
+![FontTool](https://github.com/squix78/esp8266-oled-ssd1306/raw/master/resources/FontTool.png)
+
+'''C++
 sudo nano /boot/config.txt 
 Page down to the bottom of the file and paste or type in this line:
+'''
 
 dtoverlay=w1-gpio,gpiopin=4
 
