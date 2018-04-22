@@ -8,7 +8,7 @@ Publish temperature readings from Raspberry Pi &amp; DS18B20 Temperature probe t
 
 Follow wiring diagram: 
 
-![DS18B20 Raspberry Pi Wiring](https://goo.gl/zYhm6f)
+![DS18B20 Raspberry Pi Wiring](https://github.com/gadjetnut/heltec-esp32-mqtt/blob/master/DS18B20%20Wiring%20Raspberry%20Pi.jpg)
 
 ```
 sudo nano /boot/config.txt 
@@ -47,10 +47,14 @@ copy pubtemp.py to your Raspberry Pi and edit
 
 ```
 sudo nano pubtemp.py
+```
+
 Update these three lines with your details:
-mqtt_server = "192.168.2.201" -This is the IP address of your Raspberry Pi
-ds18B20 = "28-0417506434ff"   -Enter the folder of your DS18B20 sensor in between the quotes
-fahrenheit=True  			          -Change False to True if you want the temperature displayed in Fahrenheit
+
+```
+mqtt_server = "192.168.2.201" #This is the IP address of your Raspberry Pi
+ds18B20 = "28-0417506434ff"   #Enter the folder of your DS18B20 sensor in between the quotes
+fahrenheit=True  			        #Change False to True if you want the temperature displayed in Fahrenheit
 ```
 
 Press CTRL-X Y ENTER to save exit. 
