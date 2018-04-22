@@ -21,16 +21,18 @@ esp_temp_display_mqtt.ino 1.00
 */
 
 #include <Wire.h>  // Only needed for Arduino 1.6.5 and earlier
-#include "SSD1306.h" // alias for `#include "SSD1306Wire.h"`
 #include <WiFi.h>
 #include <WiFiMulti.h>
 #include <WiFiClient.h>
 #include <PubSubClient.h>
+#include "SSD1306.h" // alias for `#include "SSD1306Wire.h"` 
+//#include "SH1106Wire.h" //If you need the 1106 driver then replace above line with this line
 
 #define DISPLAY_HEIGHT 64
 #define DISPLAY_WIDTH  128
 
 SSD1306  display(0x3c, 4, 15);
+//SH1106Wire display(ADDRESS, SDA, SDC); //If you need the 1106 driver then replace above line with this line
 
 const char* ssid     = "BELL086";          // your network SSID (name of wifi network)
 const char* password = "916E73E1A7E4";     // your network password
